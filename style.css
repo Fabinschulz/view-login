@@ -1,0 +1,28 @@
+.container{
+    position: relative;
+	display: block;
+	width: 100%;
+	max-width: 350px;
+	margin: auto;
+	padding: 30px;
+	border-radius: 3px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+label{
+    font-family: Arial;
+    Font-size: 12px;
+    font-weight: lighter;
+    color:	#1C1C1C;
+}
+
+#edit{
+    text-decoration: none;
+    color: #4F4F4F;
+    padding: 3px;
+}
+.img{
+    background-image: url(logo.jpg);
+    font-size: 50px;
+  }
