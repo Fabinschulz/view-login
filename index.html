@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Sign in</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -11,19 +12,25 @@
 <body>
 
     <div class="container">
-        <h1><b>Sign in</b></h1>
-        <label>Login</label>
-        <br />
-        <input type=”text” />
-        <br />
-        <label>Password</label>
-        <br />
-        <input type=”text” />
-        <br />
-        <div id="toRemember">
-            <input type="checkbox" />Lembrar</input>
-            <p classe="edit"><a href="https://www.google.com/">Esqueceu a senha?</a></p>
+        <div class="logoSpace">
+            <h1><img src="astroSpace.jpg" alt="logo-login"></h1>
         </div>
+        <br />
+        <section class="box">
+            <label class="login">Login</label>
+            <input class="inputs" type=”text” />
+            <label class="password">Password</label>
+            <input class="inputs" type="password" />
+            <div class="containerTwo">
+                <input id="toRemember" type="checkbox"> Lembrar</input>
+                <p class="redefinePassword"><a href="index.html">Esqueceu a senha?</a></p>
+            </div>
+            <button>
+                <span class="transition"></span>
+                <span class="gradient"></span>
+                <span class="label">Entrar</span>
+            </button>
+        </section>
     </div>
 </body>
 
