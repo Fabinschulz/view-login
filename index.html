@@ -6,30 +6,33 @@
     <title>Sign in</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
     <div class="container">
-        <div class="logoSpace">
-            <h1><img src="astroSpace.jpg" alt="logo-login"></h1>
-        </div>
+        <nav class="logoSpace">
+            <h1><img src="./image/astroSpace.jpg" alt="logo-login"></h1>
+        </nav>
         <br />
         <section class="box">
-            <label class="login">Login</label>
-            <input class="inputs" type=”text” />
-            <label class="password">Password</label>
+            <label class="login">Email</label>
+            <input class="inputs" type="email" />
+            <label class="password">Senha</label>
             <input class="inputs" type="password" />
             <div class="containerTwo">
-                <input id="toRemember" type="checkbox"> Lembrar</input>
+                <input class="toRemember" type="checkbox"> Lembrar</input>
                 <p class="redefinePassword"><a href="index.html">Esqueceu a senha?</a></p>
             </div>
-            <button>
-                <span class="transition"></span>
-                <span class="gradient"></span>
-                <span class="label">Entrar</span>
-            </button>
+            <div>
+                <button>
+                    <span class="transition"></span>
+                    <span class="gradient"></span>
+                    <span class="label">Entrar</span>
+                </button>
+            </div>
         </section>
     </div>
 </body>
