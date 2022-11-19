@@ -1,6 +1,6 @@
-# SpaceWorld - view
+# SpaceTime- view
 
-Space World in HTML-CSS.
+Space time in HTML-CSS.
 
 Desenvolvido para melhorar meu desenvolvimento em Html e Css.
 
